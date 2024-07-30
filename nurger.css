@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.burger {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.bun {
+    width: 200px;
+    height: 60px;
+    background-color: #f5d19a;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.bun.bottom {
+    border-radius: 0 0 50% 50%;
+    margin-top: 5px;
+}
+
+.lettuce {
+    width: 180px;
+    height: 20px;
+    background-color: #91c63d;
+    border-radius: 20px;
+    margin: 0 auto 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.cheese {
+    width: 160px;
+    height: 20px;
+    background-color: #fdd835;
+    border-radius: 5px;
+    margin: 0 auto 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.patty {
+    width: 180px;
+    height: 40px;
+    background-color: #5d4037;
+    border-radius: 10px;
+    margin: 0 auto 5px;
+    position: relative;
+    z-index: 1;
+}
